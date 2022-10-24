@@ -1,0 +1,13 @@
+.square-position-container {
+  display: flex;
+  width: 100%;
+
+  .square-box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    background-color: $secondary-light;
+    border-radius: 4px;
+  }
+}

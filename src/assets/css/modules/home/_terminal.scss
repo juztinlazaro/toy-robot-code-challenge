@@ -1,0 +1,100 @@
+.terminal-section {
+  position: relative;
+
+  .terminal-container {
+    padding: 20px 10px;
+    background: $secondary-lighter;
+  }
+
+  .terminal-container .terminal-wrapper,
+  .empty-slate {
+    min-height: 700px;
+    max-height: 700px;
+  }
+
+  .terminal-container .terminal-wrapper {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+  }
+
+  .empty-slate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .terminal-wrapper .record-content {
+    margin-bottom: 10px;
+  }
+
+  .terminal-wrapper .record-content .time {
+    margin-right: 20px;
+    color: $primary-lighter;
+    font-size: 10px;
+  }
+
+  .terminal-wrapper .record-content .message {
+    color: $primary-darker;
+    font-size: 12px;
+  }
+
+  .record-content .message span {
+    margin-right: 10px;
+    font-weight: 700;
+  }
+
+  .record-content .message .intro {
+    margin-right: 10px;
+  }
+
+  .record-content .message .x-position {
+    color: $aquamarine;
+  }
+
+  .record-content .message .y-position {
+    color: $secondary;
+  }
+
+  .record-content .message .face-position {
+    color: $amethyst;
+  }
+
+  .terminal-container .input-container {
+    position: relative;
+    width: 90%;
+  }
+
+  .terminal-container .input-container .ui-input {
+    background: $snow;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: 1px solid $secondary-dark;
+    width: 93%;
+
+    &:hover,
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .terminal-container .input-container .sign {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+  }
+
+  .terminal-container .input-container .enter {
+    position: absolute;
+    right: 10px;
+    background: transparent;
+    border: 0px;
+    top: 10px;
+    outline: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
