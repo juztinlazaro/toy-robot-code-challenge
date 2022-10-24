@@ -25,7 +25,7 @@ const Controller: React.FC<IControllerProps> = ({ left, right, move }) => {
       <h4 className="title">Move and Directions</h4>
 
       <p>
-        You can use your arrow keys left, right to turn face direction and up to
+        <strong>Additional feature</strong>: You can use your arrow keys left, right to turn face direction and up to
         move.
       </p>
 

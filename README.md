@@ -22,3 +22,4 @@ however further valid movement commands must still be allowed.
 1. `yarn install`
 2. `yarn start` or `npm run start`
 3.  Optional if you want to add boxes go change `MAXIMUM_ROW_BOXES` path `src/common/constant/app.constant.ts`
+4. Additional feautre you can use arrow button to interact robot.
